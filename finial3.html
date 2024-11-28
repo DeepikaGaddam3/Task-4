@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Product Page</title>
+    <link rel="stylesheet" href="finial3.css">
+</head>
+<body>
+    <div id="app">
+        <h1>Product Page</h1>
+        <div id="filters">
+            <div>
+                <label for="search">Search:</label>
+                <input type="text" id="search" placeholder="Search products...">
+            </div>
+            <div>
+                <label for="category">Category:</label>
+                <select id="category">
+                    <option value="all">All</option>
+                    <option value="electronics">Electronics</option>
+                    <option value="clothing">Clothing</option>
+                    <option value="books">Books</option>
+                    <option value="jewellery">jewellery</option>
+                </select>
+            </div>
+            <div>
+                <label for="price">Price:</label>
+                <select id="price">
+                    <option value="all">All</option>
+                    <option value="low">Low to High</option>
+                    <option value="high">High to Low</option>
+                </select>
+            </div>
+            <div>
+                <label for="rating">Rating:</label>
+                <select id="rating">
+                    <option value="all">All</option>
+                    <option value="high">High to Low</option>
+                    <option value="low">Low to High</option>
+                </select>
+            </div>
+        </div>
+
+        <div id="products">
+            <!-- Products will be displayed here -->
+        </div>
+    </div>
+
+    <script src="finial3.js"></script>
+</body>
+</html>
